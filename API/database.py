@@ -10,3 +10,6 @@ import sqlite3
 
 #Creating weather station database connection
 conn = sqlite3.connect('weather_station.db')
+
+#Close connection
+conn.close()
